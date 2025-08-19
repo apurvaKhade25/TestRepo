@@ -25,6 +25,7 @@ target=int(input("enter element to be searched: "))
 result=binary(arr,target)
 
 if result==-1:
-    print("target not foung")
+    print("target not found")
+
 else:
     print(f"target found at {result}")
